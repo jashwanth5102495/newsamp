@@ -127,6 +127,17 @@ export default function App() {
       crops: 'Cucumber',
       dosage: 'one foliar application at 2ml/l.',
     },
+    'Magic - PR': {
+      gazette: 'S.O.3922(E), Dated 12-9-2024',
+      title: 'Total carbohydrate percent by weight minimum : 7.5',
+      composition: [
+        '1. Total carbohydrate percent by weight minimum : 7.5',
+        '2.D-Galactose -4-O-Sulphate Percent by weight minimum : 6.0',
+        '3. pH (Minimum) (1:2 Aqueous Solution) : 3.0 - 5.0',
+      ],
+      crops: 'Cucumber',
+      dosage: 'one foliar application at 2ml/l.',
+    },
     'Hi Grow – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
       title: 'Alginic Acid per cent.by weight minimum : 2.0',
