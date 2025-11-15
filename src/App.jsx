@@ -225,7 +225,44 @@ export default function App() {
     },
   };
 
-  const content = productData[product];
+  const displayNames = {
+    'Humus Carbon ++': 'NUTREE HUMCAR',
+    'Humizyme-PR': 'NUTREE KHUM',
+    'Black Gold-PR (L)': 'NUTREE NUTREE HUMFUL',
+    'Humizyme – PR (L)': 'NUTREE HUMOL',
+    'Black Gold – PR': 'NUTREE HUMIC',
+    'Sea Vite Gold – PR': 'NUTREE SEAVIT',
+    'Sea Gold – PR': 'NUTREE SEA GOLD',
+    'Magic – PR': 'NUTREE MAGIC',
+    'Magic - PR': 'NUTREE MAGIC',
+    'Magi20 PR': 'NUTREE MAGIC',
+    'Hi Grow – PR': 'NUTREEFY GROWHIGH',
+    'Hi Grow - PR': 'NUTREEFY GROWHIGH',
+    'Srushti – PR': 'NUTREE VAS',
+    'Srushti - PR': 'NUTREE VAS',
+    'Jadoo Ultra – PR': 'NUTREE GOLD',
+    'Jadoo Ultra - PR': 'NUTREE GOLD',
+  };
+
+  const displayName = displayNames[product] ?? product.replace(/\d+/g, '');
+
+  const urlAliases = {
+    'NUTREE HUMCAR': 'Humus Carbon ++',
+    'NUTREE KHUM': 'Humizyme-PR',
+    'NUTREE NUTREE HUMFUL': 'Black Gold-PR (L)',
+    'NUTREE HUMOL': 'Humizyme – PR (L)',
+    'NUTREE HUMIC': 'Black Gold – PR',
+    'NUTREE SEAVIT': 'Sea Vite Gold – PR',
+    'NUTREE SEA GOLD': 'Sea Gold – PR',
+    'NUTREE MAGIC': 'Magic – PR',
+    'NUTREEFY GROWHIGH': 'Hi Grow – PR',
+    'NUTREE VAS': 'Srushti – PR',
+    'NUTREE GOLD': 'Jadoo Ultra – PR',
+  };
+
+  const canonicalProduct = urlAliases[product] ?? product;
+
+  const content = productData[canonicalProduct];
 
   // Ensure the background video starts immediately when ready
   useEffect(() => {
@@ -347,6 +384,10 @@ export default function App() {
                 <div className="text-lg">Jasnav It Solutions</div>
               </div>
 
+              <div className="rounded-xl bg-white/20 border border-white/40 px-4 py-3 text-gray-900">
+                <div className="text-gray-700 text-xs">Product Name</div>
+                 <div className="text-lg">{displayName}</div>
+               </div>
 
               <div className="rounded-xl bg-white/20 border border-white/40 px-4 py-3 text-gray-900">
                 <div className="text-gray-700 text-xs">1. Gazette Notification</div>
