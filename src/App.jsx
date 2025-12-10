@@ -40,7 +40,7 @@ export default function App() {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
       title: 'Humic Acid 5% (powder)',
       composition: [
-        '1. Humic Acid precent by weight minimum : 5',
+        '1. Humic Acid percent by weight minimum : 5',
         '2. PH (1% aq solution) : 4.0 – 5.0',
         '3. specific Gravity : 1.0',
       ],
@@ -49,9 +49,9 @@ export default function App() {
     },
     'Humizyme-PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Humic Acid 21% (powder)',
+      title: 'Humic Acid 49% (powder)',
       composition: [
-        '1. Humic Acid precent by weight minimum : 21',
+        '1. Humic Acid percent by weight minimum : 21',
         '2. PH (1% aq solution) : 6.0 – 8.0',
       ],
       crops: 'Paddy',
@@ -59,7 +59,7 @@ export default function App() {
     },
     'Black Gold-PR (L)': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Total water soluble humates and fulvates percent. Weight by volume, minimum 22%',
+      title: 'humates and fulvates percent. Weight by volume, minimum 22%',
       composition: [
         '1. Total water soluble humates and fulvates percent. Weight by volume, minimum 22%',
         '2. PH (1.5 aqueous solution) : 9.0 (Min)',
@@ -70,9 +70,9 @@ export default function App() {
     },
     'Humizyme – PR (L)': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Humic Acid 10% (powder)',
+      title: 'Humic Acid 12.5 (powder)',
       composition: [
-        '1. Humic Acid precent by weight minimum : 10',
+        '1. Humic Acid percent by weight minimum : 10',
         '2. Fulvic Acid Percent. By weight minimum : 2.5',
         '3. PH (10% aqueous solution) : 12 – 14',
         '4. Specific Gravity : 1.0 – 1.20',
@@ -94,7 +94,7 @@ export default function App() {
     },
     'Sea Vite Gold – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Alginic Acid percent by weight, minimum : 1.5',
+      title: 'Seaweed extract of Ascophyllum nodosum 15% (Liquid) foliar Application',
       composition: [
         '1. Alginic Acid percent by weight, minimum : 1.5',
         '2.Mannitol percent by  weight, minimum : 1.0',
@@ -107,7 +107,7 @@ export default function App() {
     },
     'Sea Gold – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Alginic Acid percent by weight, minimum : 0.2',
+      title: 'Seaweed Extract of Salgassum tenerriumont 2% (Granular) Soil Application',
       composition: [
         '1. Alginic Acid percent by weight, minimum : 0.2',
         '2. PH (1:2 aqueous solution) : 6.0 – 8.5',
@@ -118,7 +118,7 @@ export default function App() {
     },
     'Magic – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Total carbohydrate percent by weight minimum : 7.5',
+      title: 'Kappaphycus alvarezii 24% (Liquid)',
       composition: [
         '1. Total carbohydrate percent by weight minimum : 7.5',
         '2.D-Galactose -4-O-Sulphate Percent by weight minimum : 6.0',
@@ -129,7 +129,7 @@ export default function App() {
     },
     'Magic - PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Total carbohydrate percent by weight minimum : 7.5',
+      title: 'Kappaphycus alvarezii 24% (Liquid)',
       composition: [
         '1. Total carbohydrate percent by weight minimum : 7.5',
         '2.D-Galactose -4-O-Sulphate Percent by weight minimum : 6.0',
@@ -151,7 +151,7 @@ export default function App() {
     },
     'Hi Grow – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Alginic Acid per cent.by weight minimum : 2.0',
+      title: 'Seaweed extract of Sargassum tenellimum 10% (liquid) foliar Application',
       composition: [
         '1. Alginic Acid per cent.by weight minimum : 2.0',
         '2. pH (1:2 aqueous solution) 8 - 10',
@@ -162,7 +162,7 @@ export default function App() {
     },
     'Hi Grow - PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Alginic Acid per cent.by weight minimum : 2.0',
+      title: 'Seaweed extract of Sargassum tenellimum 10% (liquid) foliar Application',
       composition: [
         '1. Alginic Acid per cent.by weight minimum : 2.0',
         '2. pH (1:2 aqueous solution) 8 - 10',
@@ -173,7 +173,7 @@ export default function App() {
     },
     'Srushti – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Vasicine, minimum : 5 ppm',
+      title: 'Soil Application\nBotanical extract of Adhotoda Vassica\n(Powder)',
       composition: [
         '1. Vasicine, minimum : 5 ppm',
         '2. Seaweed extract, percent. by weight minimum : 5',
@@ -184,7 +184,7 @@ export default function App() {
     },
     'Srushti - PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Vasicine, minimum : 5 ppm',
+      title: 'Soil Application\nBotanical extract of Adhotoda Vassica\n(Powder)',
       composition: [
         '1. Vasicine, minimum : 5 ppm',
         '2. Seaweed extract, percent. by weight minimum : 5',
@@ -195,7 +195,7 @@ export default function App() {
     },
     'Jadoo Ultra – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Humic Acid percent. by weight, minimum : 30',
+      title: 'Mixture of Humic Acid, Amino Acid, Vitamins & Bio-chemicals (Powder) Soil Application',
       composition: [
         '1. Humic Acid percent. by weight, minimum : 30',
         '2. Amino Acid (Glycine) percent. by weight, minimum : 7',
@@ -210,7 +210,7 @@ export default function App() {
     },
     'Jadoo Ultra - PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Humic Acid percent. by weight, minimum : 30',
+      title: 'Mixture of Humic Acid, Amino Acid, Vitamins & Bio-chemicals (Powder) Soil Application',
       composition: [
         '1. Humic Acid percent. by weight, minimum : 30',
         '2. Amino Acid (Glycine) percent. by weight, minimum : 7',
@@ -227,8 +227,8 @@ export default function App() {
 
   const displayNames = {
     'Humus Carbon ++': 'NUTREE HUMCAR',
-    'Humizyme-PR': 'NUTREE KHUM',
-    'Black Gold-PR (L)': 'NUTREE HUMFUL',
+    'Humizyme-PR': 'NUTREE-K-HUM',
+    'Black Gold-PR (L)': 'NUTREEHUMFUL',
     'Humizyme – PR (L)': 'NUTREE HUMOL',
     'Black Gold – PR': 'NUTREE HUMIC',
     'Sea Vite Gold – PR': 'NUTREE SEAVIT',
@@ -391,7 +391,7 @@ export default function App() {
 
               <div className="rounded-xl bg-white/20 border border-white/40 px-4 py-3 text-gray-900">
                 <div className="text-gray-700 text-xs">2. Title of Bio Stimulant</div>
-                <div className="text-lg">{content?.title ?? '\u00A0'}</div>
+                <div className="text-lg whitespace-pre-wrap">{content?.title ?? '\u00A0'}</div>
               </div>
 
               <div className="rounded-xl bg-white/20 border border-white/40 px-4 py-3 text-gray-900">
