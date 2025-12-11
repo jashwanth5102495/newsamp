@@ -59,7 +59,7 @@ export default function App() {
     },
     'Black Gold-PR (L)': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'humates and fulvates percent. Weight by volume, minimum 22%',
+      title: 'Humates and Fulvates 22% Liquid',
       composition: [
         '1. Total water soluble humates and fulvates percent. Weight by volume, minimum 22%',
         '2. PH (1.5 aqueous solution) : 9.0 (Min)',
@@ -70,7 +70,7 @@ export default function App() {
     },
     'Humizyme – PR (L)': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Humic Acid 12.5 (powder)',
+      title: 'Humic Acid 12.5 (Liquid)',
       composition: [
         '1. Humic Acid percent by weight minimum : 10',
         '2. Fulvic Acid Percent. By weight minimum : 2.5',
@@ -103,7 +103,7 @@ export default function App() {
         '5. Total organic carbon per cent. By weight, minimum  : 5',
       ],
       crops: 'Green Gram',
-      dosage: 'Two folia application at 1.5 l/ha.',
+      dosage: 'Two foliar application at 1.5 l/ha.',
     },
     'Sea Gold – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
@@ -151,7 +151,7 @@ export default function App() {
     },
     'Hi Grow – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Seaweed extract of Sargassum tenellimum 10% (liquid) foliar Application',
+      title: 'Seaweed extract of Sargassum Tenerrimum 10% (liquid) foliar Application',
       composition: [
         '1. Alginic Acid per cent.by weight minimum : 2.0',
         '2. pH (1:2 aqueous solution) 8 - 10',
@@ -162,7 +162,7 @@ export default function App() {
     },
     'Hi Grow - PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Seaweed extract of Sargassum tenellimum 10% (liquid) foliar Application',
+      title: 'Seaweed extract of Sargassum Tenerrimum 10% (liquid) foliar Application',
       composition: [
         '1. Alginic Acid per cent.by weight minimum : 2.0',
         '2. pH (1:2 aqueous solution) 8 - 10',
@@ -173,7 +173,7 @@ export default function App() {
     },
     'Srushti – PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Soil Application\nBotanical extract of Adhotoda Vassica\n(Powder)',
+      title: 'Botanical extract of Adhotoda, Vassica (Powder)',
       composition: [
         '1. Vasicine, minimum : 5 ppm',
         '2. Seaweed extract, percent. by weight minimum : 5',
@@ -184,7 +184,7 @@ export default function App() {
     },
     'Srushti - PR': {
       gazette: 'S.O.3922(E), Dated 12-9-2024',
-      title: 'Soil Application\nBotanical extract of Adhotoda Vassica\n(Powder)',
+      title: 'Botanical extract of Adhotoda, Vassica (Powder)',
       composition: [
         '1. Vasicine, minimum : 5 ppm',
         '2. Seaweed extract, percent. by weight minimum : 5',
